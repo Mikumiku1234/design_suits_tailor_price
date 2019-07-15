@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 150px 0 100px 0;
+  background-image: url(top2.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  color: white;
+  font-family: Monotype Corsiva;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+table{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 20px 30px;
+}
+
+table td{
+
+  font-size: 20px;
+  padding: 15px 25px;
+  font-family: Monotype Corsiva;
+}
+
+table th{
+  font-family: serif;
+  font-size: 20px;
+  padding: 15px 25px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: #A901DB;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  font-family: serif;
+
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
+.logo {
+  height: 65px;
+  margin-top: 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family: Monotype Corsiva;
+  font-size: 15px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+footer img {
+  width: 100px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 20px;
+  height: 125px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.footer-left{
+  float: left;
+  width: 500px;
+}
+
+.footer-right{
+  float: right;
+  margin-top: 20px;
+}
